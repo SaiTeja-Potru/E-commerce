@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+}
+#img_container{
+    height: 100%;
+   flex-basis: 45%;
+  
+}
+#form_container{
+    height: 100%;
+    flex-basis: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+#img_container img{
+    height: 100%;
+    width: 100%;
+}
+
+#form_container #para{
+    font-size: 30px;
+    font-family: cursive;
+    color: #17cd26e7;
+    position: relative;
+    right: 15px;
+}
+
+#form_container p{
+    font-size: 25px;
+    font-family: cursive;
+    color: rgba(0,0,0,0.5);
+}
+
+#form_container p span{
+    font-size: 15px;
+    font-family: cursive;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 5px;
+}
+
+
+#form_container form{
+    border: 2px solid rgba(252, 152, 21, 0.907);
+    padding: 50px;
+    border-radius: 40px;
+    box-shadow: rgba(251, 148, 11, 0.3) 0px 0px 0px 3px;
+}
+
+
+#form_container form input{
+    height: 60px;
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+#form_container form input::placeholder{
+    font-size: 16px;
+}
+
+
+#form_container form #submit{
+    background-color: rgb(197, 138, 249);
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+#form_container form #submit:hover{
+    background-color: rgba(197, 138, 249, 0.738);
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 2px;
+    border: none;
+}
